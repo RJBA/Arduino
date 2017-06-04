@@ -64,7 +64,7 @@ void loop()
        lcd.setCursor(0,0);
        lcd.print("4490172123");
        lcd.setCursor(1,1);
-       lcd.print("449017");
+       lcd.print("449017566");
        delay(4000);
        msg = 1;
        lcd.clear();
@@ -108,8 +108,8 @@ void loop()
 
       if (aminutos < 10) lcd.print("0");  // Si los minutos son menor que 10, pone un "0" delante.
        lcd.print(aminutos);             
-
        lcd.print(":");
+        
       if (asegundos < 10) lcd.print("0"); // Si los segundos son menor que 10, pone un "0" delante.
        lcd.print(asegundos);              
        
